@@ -11,6 +11,8 @@
 </head>
 
  <body><section class="my-8 font-sans container m-auto max-w-xl ">
+ 	<form method="POST" action="result.php">
+
 	<h1>メニューページ</h1>
 
 <!-- ここにアンケート -->
@@ -20,7 +22,7 @@
           <div class="image_box">
 <img class="thumbnail" src="./img/とみ田.jpg" alt="とみ田" />
             <input class="disabled_checkbox" type="checkbox" name="とみ田" value="1"  checked />
- 
+
 		  </div>
           <div class="image_box">
 <img class="thumbnail" src="./img/ドリルマン.jpg" alt="ドリルマン" />
@@ -60,7 +62,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="./base.js"></script>
 
-	<form method="POST" action="result.php">
 	<input type="submit" value="アンケート回答" />
 	</form>
 
