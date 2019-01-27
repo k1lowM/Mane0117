@@ -14,6 +14,7 @@
 	<h1>メニューページ</h1>
 
 <!-- ここにアンケート -->
+	<form method="POST" action="result.php">
     <div id="main">
       <ul class="image_list">
         <li>
@@ -38,7 +39,7 @@
             <input type="checkbox" name="極" value="1"   />
           </div>
       	</li>
-		<li>	
+		<li>
           <div>
 			<img class="thumbnail" src="./img/前田慶次朗.jpg" alt="前田慶次朗" />
             <input type="checkbox" name="前田慶次朗" value="1"   />
@@ -62,7 +63,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="./base.js"></script>
 
-	<form method="POST" action="result.php">
 	<input type="submit" value="アンケート回答" />
 	</form>
 
