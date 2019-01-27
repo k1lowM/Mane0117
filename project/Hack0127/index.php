@@ -40,6 +40,7 @@
     <h2 class="text-black mb-2 font-normal">Nunc dignissim risus id metus.</h2>
     <p class="text-grey-darker leading-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
     </div>
+-->
 </section><form class="font-sans text-sm rounded w-full max-w-md mx-auto my-8 px-8 pt-6 pb-8">
   <div class="relative border rounded mb-4 shadow appearance-none label-floating">
     <input class="w-full py-2 px-3 text-grey-darker leading-normal rounded" id="username" type="text" placeholder="Username">
