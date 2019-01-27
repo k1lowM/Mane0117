@@ -52,7 +52,7 @@
 
 
 ?>
-	<h1>結果ページ</h1>
+<h1>分析結果</h1>
 
 <div id="result"></div>
 <script type="text/javascript">
@@ -110,12 +110,9 @@ svg.append("g")
 .attr("r", 4);
 </script>
 
-	ここに結果</div>
-
-
-
+<p>
 <a href="main.php">戻る</a>
-
+</p>
 </body>
 </html>
 
