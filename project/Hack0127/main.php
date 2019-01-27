@@ -11,50 +11,50 @@
 </head>
 
  <body><section class="my-8 font-sans container m-auto max-w-xl ">
- 	<form method="POST" action="result.php">
-
 	<h1>メニューページ</h1>
 
 <!-- ここにアンケート -->
     <div id="main">
       <ul class="image_list">
         <li>
-          <div class="image_box">
-<img class="thumbnail" src="./img/とみ田.jpg" alt="とみ田" />
-            <input class="disabled_checkbox" type="checkbox" name="とみ田" value="1"  checked />
+         <div>
+            <img class="thumbnail" src="./img/とみ田.jpg" alt="とみ田" />
+            <input type="checkbox" name="とみ田" value="1"/>
+          </div>
+		  <div>
+			<img class="thumbnail" src="./img/ドリルマン.jpg" alt="ドリルマン" />
+            <input type="checkbox" name="ドリルマン" value="1"   />
+          </div>
+          <div>
+			<img class="thumbnail" src="./img/違う家.jpg" alt="違う家" />
+            <input type="checkbox" name="違う家" value="1"   />
+          </div>
+          <div>
+			<img class="thumbnail" src="./img/縁道.jpg" alt="縁道" />
+            <input type="checkbox" name="縁道" value="1"   />
+          </div>
+          <div>
+			<img class="thumbnail" src="./img/極.jpg" alt="極" />
+            <input type="checkbox" name="極" value="1"   />
+          </div>
+      	</li>
+		<li>	
+          <div>
+			<img class="thumbnail" src="./img/前田慶次朗.jpg" alt="前田慶次朗" />
+            <input type="checkbox" name="前田慶次朗" value="1"   />
+          </div>
+          <div>
 
-		  </div>
-          <div class="image_box">
-<img class="thumbnail" src="./img/ドリルマン.jpg" alt="ドリルマン" />
-            <input class="disabled_checkbox" type="checkbox" name="ドリルマン" value="1"  checked />
+			  <img class="thumbnail" src="./img/博多だるま.jpg" alt="博多だるま" />
+            <input type="checkbox" name="博多だるま" value="1"   />
           </div>
-          <div class="image_box">
-<img class="thumbnail" src="./img/違う家.jpg" alt="違う家" />
-            <input class="disabled_checkbox" type="checkbox" name="違う家" value="1"  checked />
+          <div>
+			<img class="thumbnail" src="./img/無心.jpg" alt="無心" />
+            <input type="checkbox" name="無心" value="1"  />
           </div>
-          <div class="image_box">
-<img class="thumbnail" src="./img/縁道.jpg" alt="縁道" />
-            <input class="disabled_checkbox" type="checkbox" name="縁道" value="1"  checked />
-          </div>
-          <div class="image_box">
-<img class="thumbnail" src="./img/極.jpg" alt="極" />
-            <input class="disabled_checkbox" type="checkbox" name="極" value="1"  checked />
-          </div>
-          <div class="image_box">
-<img class="thumbnail" src="./img/前田慶次朗.jpg" alt="前田慶次朗" />
-            <input class="disabled_checkbox" type="checkbox" name="前田慶次朗" value="1"  checked />
-          </div>
-          <div class="image_box">
-<img class="thumbnail" src="./img/博多だるま.jpg" alt="博多だるま" />
-            <input class="disabled_checkbox" type="checkbox" name="博多だるま" value="1"  checked />
-          </div>
-          <div class="image_box">
-<img class="thumbnail" src="./img/無心.jpg" alt="無心" />
-            <input class="disabled_checkbox" type="checkbox" name="無心" value="1" checked />
-          </div>
-           <div class="image_box">
-<img class="thumbnail" src="./img/六厘舎.jpg" alt="六厘舎" />
-            <input class="disabled_checkbox" type="checkbox" name="六厘舎" value="1"  checked />
+           <div>
+			<img class="	thumbnail" src="./img/六厘舎.jpg" alt="六厘舎" />
+            <input type="checkbox" name="六厘舎" value="1"   />
           </div>
        </li>
       </ul>
@@ -62,6 +62,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="./base.js"></script>
 
+	<form method="POST" action="result.php">
 	<input type="submit" value="アンケート回答" />
 	</form>
 
