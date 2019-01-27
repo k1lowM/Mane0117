@@ -58,7 +58,7 @@
     <button class="bg-black hover:bg-black text-white py-2 px-4" type="button">
     Sign In
     </button>
-    <a class="inline-block align-baseline text-grey hover:text-grey-darker" href="#">
+    <a class="inline-block align-baseline text-grey hover:text-grey-darker" href="./main.php">
       Forgot Password?
     </a>
   </div>
