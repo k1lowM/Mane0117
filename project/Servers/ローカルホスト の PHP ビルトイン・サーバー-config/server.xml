@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Server>
+	<Port name="HTTP/1.1" protocol="HTTP">8628</Port>
+<PathMapping local="/Hack0127" module="Hack0127" remote="/Users/KazuMacAir/Documents/git/Mane0117/project/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/htdocs/Hack0127"/></Server>
