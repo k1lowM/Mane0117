@@ -56,7 +56,7 @@
   </div>
   <div class="flex items-center justify-between">
     <button class="bg-black hover:bg-black text-white py-2 px-4" type="button">
-    <a href="main.php">Sign In</a>
+    <a class="inline-block align-baseline text-grey hover:text-grey-darker" href="main.php">Sign In</a>
     </button>
     <a class="inline-block align-baseline text-grey hover:text-grey-darker" href="#">
       Forgot Password?
