@@ -7,12 +7,13 @@
     <link href=https://stitches.hyperyolo.com/public/stitches.css rel="stylesheet">
     <link href=https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800,900 rel="stylesheet">
     <link rel="stylesheet" href=https://use.fontawesome.com/releases/v5.6.3/css/all.css integrity=sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/ crossorigin="anonymous">
-    <title>まめラーメン(仮)</title>
+    <title>men match</title>
   </head>
   <body><section class="font-sans h-screen w-full bg-cover text-center flex flex-col items-center justify-center" style="background:url(https://stitches-cdn.hyperyolo.com/demo-bg.png) no-repeat center;">
-  <div class="bg-white text-black rounded-full h-16 w-16 flex items-center justify-center mb-8"><i class="fas fa-play ml-1"></i></div>
-  <label for="tagline" class="uppercase tracking-extrawide text-white text-xs font-hairline mt-8">Watch Video</label>
-  <h3 class="text-white mx-auto max-w-sm mt-4 font-normal text-2xl leading-normal">リアル食べログ ラーメン編</h3>
+<!--  <div class="bg-white text-black rounded-full h-16 w-16 flex items-center justify-center mb-8"><i class="fas fa-play ml-1"></i></div>
+-->
+	<label for="tagline" class="uppercase tracking-extrawide text-white text-4xl font-hairline mt-8">men match</label>
+  <h3 class="text-white mx-auto max-w-sm mt-4 font-normal text-xl leading-normal">実は、君好みのラーメン屋知っているんだ。</h3>
 </section><section class="font-sans container max-w-xl m-auto flex flex-col lg:flex-row justify-center my-8">
   <div class="order-2 lg:order-1 w-full lg:w-1/4 flex flex-col items-center lg:items-end justify-center text-center lg:text-right ml-0 lg:ml-8 mt-8">
     <div class="w-12 h-12 rounded-full bg-grey-light mb-2" alt="Avatar of Jonathan Reinink"></div>
